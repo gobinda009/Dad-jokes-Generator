@@ -13,7 +13,7 @@ const options = {
   },
 };
 
-const jokeUrl = "https://api.api-ninjas.com/v1/jokes?limit=1";
+const jokeUrl = "https://api.api-ninjas.com/v1/jokes";
 
 async function getJokes(){
     try {
