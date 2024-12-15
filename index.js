@@ -4,7 +4,7 @@ const btnSet = document.getElementById("btn");
 
 
 
-const apiKey = "dX+5bsT8Ohm1UkiWuEJ0cA==bZz3XNn4ItDe3ed5";
+const apiKey = "I3wNaF0XUdgBsSTbXYF1RKhL42u9VaGM84MHmVcT";
 
 const options = {
   method: "GET",
@@ -13,7 +13,7 @@ const options = {
   },
 };
 
-const jokeUrl = "https://api.api-ninjas.com/v1/dadjokes?limit=1";
+const jokeUrl = "https://api.api-ninjas.com/v1/jokes?limit=1";
 
 async function getJokes(){
     try {
